@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{A681D535-9D46-4B8C-B947-0F3A07944CD9}|SOS2VEEPatch.csproj|solutionrelative:harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A681D535-9D46-4B8C-B947-0F3A07944CD9}|SOS2VEEPatch.csproj|d:\\onedrive\\games\\rimworldmodsources\\sos2veepatch\\source\\sos2veepatch\\harmonyutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A681D535-9D46-4B8C-B947-0F3A07944CD9}|SOS2VEEPatch.csproj|D:\\OneDrive\\Games\\RimworldModSources\\SOS2VEEPatch\\Source\\SOS2VEEPatch\\harmonyutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A681D535-9D46-4B8C-B947-0F3A07944CD9}|SOS2VEEPatch.csproj|solutionrelative:harmonyutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A681D535-9D46-4B8C-B947-0F3A07944CD9}|SOS2VEHelixienPatch.csproj|D:\\OneDrive\\Games\\RimworldModSources\\SOS2VEEPatch\\Source\\SOS2VEEPatch\\harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A681D535-9D46-4B8C-B947-0F3A07944CD9}|SOS2VEHelixienPatch.csproj|solutionrelative:harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A681D535-9D46-4B8C-B947-0F3A07944CD9}|SOS2VEEPatch.csproj|D:\\OneDrive\\Games\\RimworldModSources\\SOS2VEEPatch\\Source\\SOS2VEEPatch\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A681D535-9D46-4B8C-B947-0F3A07944CD9}|SOS2VEEPatch.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A681D535-9D46-4B8C-B947-0F3A07944CD9}|SOS2VEHelixienPatch.csproj|D:\\OneDrive\\Games\\RimworldModSources\\SOS2VEEPatch\\Source\\SOS2VEEPatch\\harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A681D535-9D46-4B8C-B947-0F3A07944CD9}|SOS2VEHelixienPatch.csproj|solutionrelative:harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A681D535-9D46-4B8C-B947-0F3A07944CD9}|SOS2VEHelixienPatch.csproj|D:\\OneDrive\\Games\\RimworldModSources\\SOS2VEEPatch\\Source\\SOS2VEEPatch\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "HarmonyUtils.cs",
               "ToolTip": "D:\\OneDrive\\Games\\RimworldModSources\\SOS2VEEPatch\\Source\\SOS2VEEPatch\\HarmonyUtils.cs",
               "RelativeToolTip": "HarmonyUtils.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAnwCUAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T20:27:39.15Z",
               "EditorCaption": ""
@@ -61,26 +61,26 @@
               "RelativeDocumentMoniker": "HarmonyPatches.cs",
               "ToolTip": "D:\\OneDrive\\Games\\RimworldModSources\\SOS2VEEPatch\\Source\\SOS2VEEPatch\\HarmonyPatches.cs",
               "RelativeToolTip": "HarmonyPatches.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAANAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAnwCIAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T17:00:14.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Main.cs",
               "DocumentMoniker": "D:\\OneDrive\\Games\\RimworldModSources\\SOS2VEEPatch\\Source\\SOS2VEEPatch\\Main.cs",
               "RelativeDocumentMoniker": "Main.cs",
               "ToolTip": "D:\\OneDrive\\Games\\RimworldModSources\\SOS2VEEPatch\\Source\\SOS2VEEPatch\\Main.cs",
               "RelativeToolTip": "Main.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T17:00:14.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HarmonyPatches.cs",
               "DocumentMoniker": "D:\\OneDrive\\Games\\RimworldModSources\\SOS2VEEPatch\\Source\\SOS2VEEPatch\\HarmonyPatches.cs",
               "RelativeDocumentMoniker": "HarmonyPatches.cs",

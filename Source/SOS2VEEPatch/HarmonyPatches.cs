@@ -26,13 +26,13 @@ namespace SOS2VEEPatch
         {
             public static bool Prefix(VEE.PurpleEvents.PsychicRain __instance)
             {
-                var affectedSOS2Maps = __instance.AffectedMaps.Where(map => HarmonyUtils.IsSOS2SpaceMap(map)).ToList();
+                var affectedSOS2Maps = __instance.AffectedMaps.Where(map => HarmonyUtils.IsSOS2OrRimNauts2SpaceMap(map)).ToList();
                 if (affectedSOS2Maps.Count > 0)
                 {
                     //Terminate psychic rain if it happens on any SOS2 space map.
                     __instance.suppressEndMessage = true;
                     __instance.End();
-                    Log.Warning("[SOS2VEEPatch] VEE Psychic Rain terminated on SOS2 space maps.");
+                    Log.Warning("[SOS2VEEPatch] VEE Psychic Rain terminated on SOS2 or Rimnauts2 space maps.");
                     return false;
                 }
                 return true; 
@@ -47,13 +47,13 @@ namespace SOS2VEEPatch
             {
                 if (GenTicks.TicksAbs % 15 == 5) //Run less than once-per-tick for not causing performance issue.
                 {
-                    var affectedSOS2Maps = __instance.AffectedMaps.Where(map => HarmonyUtils.IsSOS2SpaceMap(map)).ToList();
+                    var affectedSOS2Maps = __instance.AffectedMaps.Where(map => HarmonyUtils.IsSOS2OrRimNauts2SpaceMap(map)).ToList();
                     if (affectedSOS2Maps.Count > 0)
                     {
                         //Terminate psychic rain if it happens on any SOS2 space map.
                         __instance.suppressEndMessage = true;
                         __instance.End();
-                        Log.Warning("[SOS2VEEPatch] VEE Psychic Rain terminated on SOS2 space maps.");
+                        Log.Warning("[SOS2VEEPatch] VEE Psychic Rain terminated on SOS2 or Rimnauts2 space maps.");
                         return false;
                     }
                 }
