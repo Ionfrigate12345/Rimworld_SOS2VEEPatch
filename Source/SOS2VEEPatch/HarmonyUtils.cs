@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using HarmonyLib;
+using RimWorld;
 using Verse;
 
 namespace SOS2VEEPatch
@@ -33,9 +34,14 @@ namespace SOS2VEEPatch
             return map.Biome.defName.StartsWith("RimNauts2_");
         }
 
-        public static bool IsSOS2OrRimNauts2SpaceMap(Map map)
+        public static bool IsOdessySpaceMap(Map map)
         {
-            return IsSOS2SpaceMap(map) || IsRimNauts2SpaceMap(map);
+            return map.Biome == BiomeDefOf.Space || map.Biome == BiomeDefOf.Orbit;
+        }
+
+        public static bool IsSpaceMap(Map map)
+        {
+            return IsSOS2SpaceMap(map) || IsRimNauts2SpaceMap(map) || IsOdessySpaceMap(map);
         }
     }
 }
